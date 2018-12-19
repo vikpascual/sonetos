@@ -1,0 +1,36 @@
+/* Creado por Víctor Pascual Muñoz */
+@charset "utf-8";
+body {
+    background: url("http://www.mclibre.org/consultar/htmlcss/ejercicios/fondos/sonetos-lope/fondos/corazon-1.svg") repeat-y top left, url("http://www.mclibre.org/consultar/htmlcss/ejercicios/fondos/sonetos-lope/fondos/corazon-2.svg") repeat-y top right;
+    background-color: hsl(343, 100%, 96%);
+    background-size: 150px;
+    font-family: sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+h1 {
+    text-transform: uppercase;
+}
+div {
+    margin-top: 1%;
+    margin-left: 10%;
+    border: black 4px solid;
+    width: 80%;
+}
+div.primero {
+    background: url(http://www.mclibre.org/consultar/htmlcss/ejercicios/fondos/sonetos-lope/fondos/manchas.png);
+    color: white;
+}
+div.segundo {
+    background: url(http://www.mclibre.org/consultar/htmlcss/ejercicios/fondos/sonetos-lope/fondos/fuego.svg) no-repeat bottom right, url(http://www.mclibre.org/consultar/htmlcss/ejercicios/fondos/sonetos-lope/fondos/fuego.svg) no-repeat bottom left, url(http://www.mclibre.org/consultar/htmlcss/ejercicios/fondos/sonetos-lope/fondos/tallos.jpg);
+    color: yellow;
+}
+div.tercero {
+    background:  url("http://www.mclibre.org/consultar/htmlcss/ejercicios/fondos/sonetos-lope/fondos/ojo.svg") no-repeat center, url("http://www.mclibre.org/consultar/htmlcss/ejercicios/fondos/sonetos-lope/fondos/hexagonos.jpg");
+    color: darkred;
+}
+div.cuarto {
+    background: url("http://www.mclibre.org/consultar/htmlcss/ejercicios/fondos/sonetos-lope/fondos/caballo.svg") repeat-x bottom, url("http://www.mclibre.org/consultar/htmlcss/ejercicios/fondos/sonetos-lope/fondos/estrellas.png") repeat;
+    background-size: 100px;
+    color: darkgreen;
+}
